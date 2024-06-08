@@ -1,0 +1,33 @@
+/* Write your CSS here */
+.todo-item {
+  display: flex;
+  flex-direction: row;
+  align-items:flex-start;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.title {
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+.button {
+  background-color: #ffffff;
+  color: #ff0b37;
+  font-family: 'Roboto';
+  font-size: 12px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 24px;
+  }
+  .button {
+    font-size: 16px;
+    padding: 14px;
+    margin-left: 30px;
+  }
+}
